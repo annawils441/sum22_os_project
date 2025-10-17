@@ -1,0 +1,58 @@
+body {
+    font-family: "Inter", serif;
+}
+
+.heading {
+    width: 270px;
+    height: 69px;
+    float: left;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.topnav {
+    float: inline-end;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 25px;
+    background-color:  #6813a169;
+    padding: 8px;
+    z-index: 0;
+}
+
+.topnav a {
+    display: inline-block;
+    padding: 13px 20px;
+    border-radius: 25px;
+    color: black;
+    z-index: 1;
+    text-decoration:  none;
+}
+.heading img {
+    max-width: 69px;
+    max-height: auto;
+}
+
+#GJT-title {
+    float:inline-end;
+    width: 200px;
+    font-size: 20px;
+    color: #6813a1;
+    font-weight: 700;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+.active {
+    background-color: #9744ce;
+    border-radius: 25px;
+}
