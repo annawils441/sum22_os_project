@@ -24,5 +24,22 @@
                 <a class="option" href="http://127.0.0.1:5000/signup/dark">Dark Mode</a>
             </div>
         </header>
+        <div id="signup-container">
+            <h2 id="signup-header">Sign Up</h2>
+            <form action="{{url_for('signup_page')}}" method="POST">
+                <input type="text" name="user_name" placeholder="Username" required>
+                <input type="email" name="user_email" placeholder="User Email" required>
+                <input type="password" name="user_password" placeholder="User Password" required>
+                <select id="user_type" name="user_type" required>
+                    <option value="">Select User Type</option>
+                    <option value="student">Student</option>
+                    <option value="tutor">Tutor</option>
+                </select>
+                <input type="date" id="dob" name="user_dob" required>
+                <button type="submit">Create Account</button>
+            </form>
+
+
+        </div>
     </body>
 </html>
